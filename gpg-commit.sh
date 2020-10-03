@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipefail
+set -euo pipefail # Safer bash scripts
 IFS=$'\n\t'
 
 setup() {
