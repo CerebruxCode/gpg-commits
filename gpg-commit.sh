@@ -1,4 +1,5 @@
 #!/bin/bash
+# based on a script found here https://github.com/jodosha/dotfiles/blob/master/bin/gpggit
 set -euo pipefail # Safer bash scripts
 IFS=$'\n\t'
 
