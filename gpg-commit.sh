@@ -20,7 +20,7 @@ generate_key() {
      Subkey-Length: 2048
      Name-Real: `git config --get user.name`
      Name-Email: `git config --get user.email`
-     Expire-Date: `date -d "2 days" +"%Y-%m-%d"`
+     Expire-Date: `date -d "365 days" +"%Y-%m-%d"`
      %commit
      %echo done
 EOF
