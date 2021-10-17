@@ -15,9 +15,9 @@ generate_key() {
   cat >.gpgconfig <<EOF
      %echo Generating a basic OpenPGP key
      Key-Type: 1
-     Key-Length: 2048
+     Key-Length: 4096
      Subkey-Type: 1
-     Subkey-Length: 2048
+     Subkey-Length: 4096
      Name-Real: `git config --get user.name`
      Name-Email: `git config --get user.email`
      Expire-Date: `date -d "365 days" +"%Y-%m-%d"`
